@@ -46,14 +46,14 @@ header {
 	position: relative;
 	/*background: red;*/
 }
-.header-icon1{
+.header-login-icon{
 	width: 15px;
 	height: 15px;
 	position: absolute;
 	top: 8px;
 	right: 115px;
 }
-.header-icon2{
+.header-inbox-icon{
 	width: 15px;
 	height: 15px;
 	position: absolute;
@@ -67,7 +67,7 @@ header {
 .header-settings li a span{
 	color: red;
 }
-.header-searchIcon {
+.header-search-icon {
 	display: inline-block;
 	background: gray;
 	text-align: center;
@@ -77,7 +77,7 @@ header {
 	top: 5px;
 	right:33px;
 }
-.header-searchIcon img {
+.header-search-icon img {
 	margin-top: 4px;
 	width: 20px;
 	height: 20px;
@@ -184,12 +184,6 @@ form input {
 }
 .lookbook div:nth-child(1) {
 	text-align: center;
-	font-size: 20px; 
-	color: gray; 
-	line-height: 60px;
-}
-l.ookbook div:nth-child(1) p{
-	text-align: center; 
 	font-size: 20px; 
 	color: gray; 
 	line-height: 60px;
