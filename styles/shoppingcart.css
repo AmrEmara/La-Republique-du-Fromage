@@ -72,13 +72,13 @@ header {
 	width : 30px;
 	position: absolute;
 	top: 10px;
-	border: 1px solid gray;
+	border: 1px solid #C0C0C0;
 
 }
 .header-search-icon img {
-	margin-top: 4px;
-	width: 20px;
-	height: 20px;
+	margin-top: 6px;
+	width: 15px;
+	height: 15px;
 }
 .active-page {
 	background: black;
@@ -87,4 +87,70 @@ header {
 .horizontal-line {
 	margin-left:60px; 
 	margin-right:35px;
+}
+.main {
+	margin-top: 100px;
+}
+.main-subtitle {
+	color: #888888;
+	font-weight: lighter;
+}
+table {
+	margin-right: 35px;
+	margin-top: 80px;
+	margin-left: 60px;
+}
+tr {
+	font-size: 12px;
+	border-bottom: 1px solid #C0C0C0;
+}
+tr:nth-child(1) {
+	color: #C0C0C0;
+}
+tr:nth-child(n+2) {
+	line-height: 100px;
+}
+td {
+	padding : 10px 0px 10px 0px;
+}
+tr:nth-child(n+2) td {
+	width: 10%;
+	line-height: 100px;
+}
+td:nth-child(2) {
+	width: 42%;
+}
+td div {
+	width: 80%;
+	height: 100px;
+	background-color: #F0F0F0; 
+	border: 0.3px solid #C0C0C0;
+}
+.main-product-description {
+	position: relative;
+}
+.product-Ref {
+	color: #888888;
+	position: absolute;
+	top: 40px;
+}
+.main-product-QTY {
+	position: relative;
+}
+.main-product-QTY img {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 10px;
+}
+.main-product-Delete a {
+	color: black;
+	text-decoration: none;
+	margin-left: 20px;
+}
+.main-product-QTY a:nth-child(2) img {
+	top: 63px;
+}
+.main-product-QTY a:nth-child(3) img {
+	top: 72px;
 }
