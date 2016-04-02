@@ -143,14 +143,14 @@ td div {
 	height: 8px;
 	left: 10px;
 }
-.main-product-Delete a {
-	color: black;
-	text-decoration: none;
-	margin-left: 20px;
-}
 .main-product-QTY a:nth-child(2) img {
 	top: 63px;
 }
 .main-product-QTY a:nth-child(3) img {
 	top: 72px;
+}
+.main-product-Delete a {
+	color: black;
+	text-decoration: none;
+	margin-left: 20px;
 }
